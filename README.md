@@ -14,4 +14,4 @@ This simple website uses responsive web design for web and mobile screens using 
 
 ## This website is deployed to GitHub Pages
 
-- Deployment link:
+- [Deployment link](https://kmziemba.github.io/se_project_spots/)
