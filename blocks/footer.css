@@ -2,9 +2,10 @@
   display: flex;
   justify-content: center;
   color: #212121;
-  font-family: Poppins;
+}
+
+footer__text {
   font-weight: 400;
-  font-style: Regular;
   font-size: 16px;
   line-height: 1;
   letter-spacing: 0%;

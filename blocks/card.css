@@ -4,6 +4,7 @@
   object-fit: cover;
   display: block;
   flex-direction: column;
+  border-radius: 8px;
 }
 
 .card__content {
@@ -18,12 +19,20 @@
   white-space: nowrap;
   overflow: hidden;
   color: #212121;
-  font-family: Poppins;
   font-weight: 500;
   font-style: Medium;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0%;
+}
+
+.card__like-btn {
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.card__like-btn:hover {
+  opacity: 1;
 }
 
 .card__like-btn {
