@@ -46,8 +46,6 @@ const newPostCaptionInput = newPostForm.querySelector("#profile-caption-input");
 
 // Open New Post modal
 newPostAddBtn.addEventListener("click", function () {
-  newPostImageInput.value = "";
-  newPostCaptionInput.value = "";
   newPostModal.classList.add("modal_is-opened");
 });
 

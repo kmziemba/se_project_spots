@@ -28,6 +28,7 @@
   margin: 0 auto;
   padding: 32px 50px;
   position: relative;
+  box-sizing: border-box;
 }
 
 .modal__close-btn {
@@ -37,6 +38,8 @@
   width: 40px;
   height: 40px;
   background-image: url(../images/close.svg);
+  border: none;
+  background-color: transparent;
 }
 
 .modal__title {
@@ -68,6 +71,10 @@
   color: #2121214d;
 }
 
+.modal__input:hover {
+  background-color: #212121;
+}
+
 .modal__submit-btn {
   padding: 18px 32px;
   background-color: #212121;
@@ -77,6 +84,10 @@
   border-radius: 8px;
   max-width: 156px;
   max-height: 52px;
+}
+
+.modal__submit-btn {
+  background-color: #212121cc;
 }
 
 @media screen and (max-width: 320px) {

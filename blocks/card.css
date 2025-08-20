@@ -4,7 +4,6 @@
   object-fit: cover;
   display: block;
   border-radius: 8px;
-  margin-bottom: 12px;
 }
 
 .card__content {
@@ -35,6 +34,7 @@
 }
 
 .card__like-btn:hover {
+  cursor: pointer;
   opacity: 1;
 }
 
