@@ -1,4 +1,5 @@
 .card__image {
+  margin-top: 12px;
   height: 413px;
   width: 100%;
   object-fit: cover;
@@ -7,6 +8,7 @@
 }
 
 .card__content {
+  margin: 12px 0;
   display: flex;
   max-width: 413px;
   align-items: center;
@@ -14,6 +16,8 @@
 }
 
 .card__title {
+  margin: 0;
+  max-width: 413px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -47,5 +51,10 @@
   }
   .card__title {
     font-size: 16px;
+  }
+
+  .card__like-btn {
+    width: 20px;
+    height: 18px;
   }
 }

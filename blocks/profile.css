@@ -8,7 +8,7 @@
   margin-right: 20px;
   max-width: 190px;
   height: 190px;
-  border-radius: 0%;
+  border-radius: 8px;
 }
 
 .profile__column {
@@ -18,11 +18,10 @@
 
 .profile__name {
   margin: 0 0 12px;
-  font-family: Poppins;
   font-weight: 500;
   font-size: 32px;
   line-height: 1;
-  letter-spacing: 0%;
+  letter-spacing: 0px;
   display: -webkit-box;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -33,9 +32,7 @@
 
 .profile__description {
   margin: 0;
-  font-family: Poppins;
   font-weight: 500;
-  font-style: Medium;
   font-size: 16px;
   line-height: 1;
   letter-spacing: 0%;
@@ -58,10 +55,9 @@
   gap: 8px;
   font-family: Poppins;
   font-weight: 500;
-  font-style: Medium;
   font-size: 16px;
   line-height: 1;
-  letter-spacing: 0%;
+  letter-spacing: 0px;
   cursor: pointer;
   opacity: 0.7;
 }
